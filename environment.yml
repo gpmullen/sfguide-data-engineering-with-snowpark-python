@@ -4,9 +4,9 @@ channels:
   - nodefaults
 dependencies:
   - python=3.10
-  - snowflake-snowpark-python==3.1.1
-  - openssl==3.0.9
+  - snowflake-snowpark-python
   - pip
+  - openssl=3.0.9
   - pip:
     # Snowflake
     - snowflake-cli-labs==0.2.9
