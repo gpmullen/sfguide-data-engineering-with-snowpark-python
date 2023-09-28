@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.9
   - snowflake-snowpark-python
+  - openssl==3.0.9
   - pip
   - pip:
     # Snowflake
